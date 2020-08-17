@@ -1,0 +1,15 @@
+# yarn
+node_modules/
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# dotenv
+.env*
+!.env.example
+
+# logs
+yarn-error.log
