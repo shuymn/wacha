@@ -7,6 +7,11 @@
     "dev": "webpack-dev-server --mode development"
   },
   "dependencies": {
+    "@aws-amplify/auth": "^3.3.4",
+    "@aws-amplify/core": "^3.4.5",
+    "@aws-amplify/storage": "^3.2.12",
+    "@aws-amplify/ui-components": "^0.6.1",
+    "@aws-amplify/ui-react": "^0.2.14",
     "@zeit-ui/react": "^1.8.0",
     "i18next": "^19.6.3",
     "react": "^16.13.1",

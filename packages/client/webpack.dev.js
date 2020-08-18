@@ -18,6 +18,9 @@ const config = {
     watchOptions: {
       ignored: /node_modules/,
     },
+    historyApiFallback: {
+      index: "/index.html",
+    },
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),

@@ -20,11 +20,11 @@ const common = {
     ],
   },
   resolve: {
-    extensions: [".js", "jsx", ".ts", ".tsx", ".json"],
+    extensions: [".mjs", ".js", "jsx", ".ts", ".tsx", ".json"],
     plugins: [
       new TSConfigPathsPlugin.TsconfigPathsPlugin({
         configFile: path.resolve(__dirname, "./tsconfig.json"),
-        extensions: [".js", "jsx", ".ts", ".tsx", ".json"],
+        extensions: [".mjs", ".js", "jsx", ".ts", ".tsx", ".json"],
       }),
     ],
   },
